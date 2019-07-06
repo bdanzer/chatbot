@@ -1,0 +1,9 @@
+{
+    "identity": {
+        "username": "username_of_bot",
+        "password": "twitch_code"
+    },
+    "channels": [
+        "target_channel"
+    ]
+}

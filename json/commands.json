@@ -1,0 +1,46 @@
+{
+    "!add": {
+        "name": "add",
+        "description": "to add levels"
+    },
+    "!dice": {
+        "name": "dice",
+        "description": "rolls a dice"
+    },
+    "!current": {
+        "name": "current",
+        "description": "to see current level being played"
+    },
+    "!next": {
+        "name": "next",
+        "description": "to move to next level and removes from queue"
+    },
+    "!done": {
+        "name": "done",
+        "description": "to move to next level and removes from queue"
+    },
+    "!list": {
+        "name": "list",
+        "description": "list levels in queue"
+    },
+    "!queue": {
+        "name": "queue",
+        "description": "tells user what position in line they are"
+    },
+    "!position": {
+        "name": "position",
+        "description": "tells user what position in line they are"
+    },
+    "!joke": {
+        "name": "joke",
+        "description": "on my off hours as a robot I tell jokes"
+    },
+    "!commands": {
+        "name": "commands",
+        "description": "helps show what commands are available"
+    },
+    "!stop": {
+        "name": "stop",
+        "description": "stops bot from being in channel"
+    }
+}
