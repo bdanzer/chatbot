@@ -1,10 +1,10 @@
 const tmi = require('tmi.js');
-const CommandHelper = require('./commands.js');
-const bot = require('./chatbot.js');
+const CommandHelper = require('./js/commands.js');
+const bot = require('./js/chatbot.js');
 const fs = require("fs");
 
 // Define configuration options
-var opts = fs.readFileSync("auth.json");
+var opts = fs.readFileSync("json/auth.json");
 opts = JSON.parse(opts);
 
 const client = new tmi.client(opts);

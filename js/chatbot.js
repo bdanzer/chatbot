@@ -29,10 +29,8 @@ class ChatBot {
         });
 
         client.on("join", (channel, username, self) => {
-            console.log(channel);
             if (self) {
                 client.say(channel, `${username} MrDestructoid has joined to help with your mario maker level queue. You can use !stop to stop this bot. For a list of commands use !commands.`);
-                // client.say(channel, `${username} has become more powerful with an upgrade DarkMode. Please add your levels again.`);
             }
         });
     }
